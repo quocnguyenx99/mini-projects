@@ -1,0 +1,218 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Product Landing Page</title>
+    <link rel="stylesheet" href="./styles.css" />
+    <link rel="stylesheet" href="./responsive.css" />
+    <!-- fontawesome -->
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.1/css/all.min.css"
+      integrity="sha512-MV7K8+y+gLIBoVD59lQIYicR65iaqukzvf/nwasF0nqhPay5w/9lJmVM2hMDcnK1OnMGCdVK+iQrJ7lzPJQd1w=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
+  </head>
+  <body>
+    <div class="page-wrapper">
+      <!-- header -->
+      <header id="header">
+        <!-- logo -->
+        <div class="logo">
+          <img
+            id="header-img"
+            src="https://fitfood.vn/images/logo-fitfood.png"
+            alt="trumpet-logo"
+          />
+        </div>
+        <!-- links -->
+        <nav id="nav-bar" class="nav-bar">
+          <ul>
+            <li>
+              <a class="nav-link" href="#features">Features</a>
+            </li>
+            <li>
+              <a class="nav-link" href="#how-it-works">How It Works</a>
+            </li>
+            <li>
+              <a class="nav-link" href="#pricing">Pricing</a>
+            </li>
+            <div class="nav-close">
+              <i class="fa-solid fa-xmark"></i>
+            </div>
+          </ul>
+        </nav>
+        <!-- icon -->
+        <div class="nav-bars">
+          <i class="fa-solid fa-bars"></i>
+        </div>
+      </header>
+      <!-- hero -->
+      <section class="hero">
+        <h2>TASTY & NUTRITIOUS MEALS</h2>
+        <form action="https://www.freecodecamp.com/email-submit" id="form">
+          <input
+            id="email"
+            type="email"
+            name="email"
+            placeholder="Enter your email address"
+            required
+          />
+          <input id="submit" type="submit" value="Get Started" />
+        </form>
+      </section>
+      <div class="container">
+        <!-- features -->
+        <section id="features" class="features">
+          <!-- feature 01 -->
+          <div class="feature">
+            <div class="icon">
+              <i class="fa-solid fa-fire-flame-curved"></i>
+            </div>
+            <div class="desc">
+              <h2>We Cook</h2>
+              <p>
+                We select the finest ingredients and cook in our professional
+                kitchen
+              </p>
+            </div>
+          </div>
+          <!-- feature 02 -->
+          <div class="feature">
+            <div class="icon">
+              <i class="fa-solid fa-truck"></i>
+            </div>
+            <div class="desc">
+              <h2>Fast Shipping</h2>
+              <p>
+                Our team will deliver 2 to 3 meals every day, in the morning or
+                at night
+              </p>
+            </div>
+          </div>
+          <!-- feature 03 -->
+          <div class="feature">
+            <div class="icon">
+              <i class="fa-solid fa-circle-check"></i>
+            </div>
+            <div class="desc">
+              <h2>Pick Your Plan</h2>
+              <p>
+                Select your favorite plans, choose your menu, fill in delivery
+                details in just 1 minute
+              </p>
+            </div>
+          </div>
+          <!-- feature 04 -->
+          <div class="feature">
+            <div class="icon">
+              <i class="fa-solid fa-utensils"></i>
+            </div>
+            <div class="desc">
+              <h2>Quality Assurance</h2>
+              <p>
+                Simply heat & eat! Enjoy in the box or serve on a plate. Bon
+                appétit!
+              </p>
+            </div>
+          </div>
+        </section>
+        <!-- how it works -->
+        <section id="how-it-works" class="how-it-works">
+          <iframe
+            id="video"
+            height="300"
+            src="https://player.vimeo.com/external/412256916.sd.mp4?s=3ba9485ec6c1e7d56cf23aa87924b7c8ab3b7ad8&profile_id=164&oauth2_token_id=57447761"
+            frameborder="0"
+            allowfullscreen
+          ></iframe>
+        </section>
+        <!-- pricing -->
+        <section id="pricing" class="pricing">
+          <!-- product 01 -->
+          <div class="product">
+            <div class="level">Vegetarian Package</div>
+            <div class="product-img">
+              <img
+                src="https://fitfood.vn/img/500x315/images/veg-15815881790216.jpg"
+                alt=""
+              />
+            </div>
+            <h2>600$</h2>
+            <ol>
+              <li>Lorem, ipsum.</li>
+              <li>Lorem, ipsum.</li>
+              <li>Lorem, ipsum dolor.</li>
+              <li>Lorem, ipsum.</li>
+            </ol>
+            <button class="btn">select</button>
+          </div>
+          <!-- product 02 -->
+          <div class="product">
+            <div class="level">Meat Package</div>
+            <div class="product-img">
+              <img
+                src="https://fitfood.vn/img/500x315/images/meat-15814245934955.jpg"
+                alt=""
+              />
+            </div>
+            <h2>900$</h2>
+            <ol>
+              <li>Lorem, ipsum.</li>
+              <li>Lorem, ipsum.</li>
+              <li>Lorem, ipsum dolor.</li>
+              <li>Lorem, ipsum.</li>
+            </ol>
+            <button class="btn">select</button>
+          </div>
+          <!-- product 03 -->
+          <div class="product">
+            <div class="level">Full Package</div>
+            <div class="product-img">
+              <img
+                src="https://fitfood.vn/img/500x315/images/full-15815879566674.jpg"
+                alt=""
+              />
+            </div>
+            <h2>1200$</h2>
+            <ol>
+              <li>Lorem, ipsum.</li>
+              <li>Lorem, ipsum.</li>
+              <li>Lorem, ipsum dolor.</li>
+              <li>Lorem, ipsum.</li>
+            </ol>
+            <button class="btn">select</button>
+          </div>
+        </section>
+        <!-- footer -->
+        <footer class="footer">
+          <ul>
+            <li>Privacy</li>
+            <li>Terms</li>
+            <li>Contact</li>
+          </ul>
+          <span>Copyright 2016, Original Trombones</span>
+        </footer>
+      </div>
+    </div>
+
+    <script>
+      const navbarBars = document.querySelector(".nav-bars");
+      const navbarLinks = document.querySelector(".nav-bar");
+      const navbarClose = document.querySelector(".nav-close");
+      if (navbarBars) {
+        navbarBars.addEventListener("click", () => {
+          navbarLinks.classList.add("is-active");
+        });
+      }
+      if (navbarClose) {
+        navbarClose.addEventListener("click", () => {
+          navbarLinks.classList.remove("is-active");
+        });
+      }
+    </script>
+  </body>
+</html>

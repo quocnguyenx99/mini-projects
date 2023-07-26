@@ -1,0 +1,61 @@
+/* For < Desktop */
+@media screen and (max-width: 1023px) {
+}
+
+/* Mobile */
+@media screen and (max-width: 739px) {
+  nav ul {
+    margin-right: 0;
+  }
+  .welcome-section h1,
+  .contact-header h2 {
+    font-size: 3rem;
+  }
+  .welcome-section p,
+  .contact-header p {
+    font-size: 1rem;
+  }
+  .project {
+    padding: 4rem 3rem;
+  }
+  .project h2 {
+    font-size: 1.5rem;
+  }
+  .project-grid-container {
+    grid-template-columns: 1fr;
+  }
+  .btn {
+    padding: 0.5rem 1rem;
+  }
+  .contact {
+    padding: 4rem 0;
+  }
+  .contact-links {
+    flex-direction: column;
+  }
+  .contact-links a {
+    padding: 1rem 1.25rem;
+  }
+}
+
+/* Tablet */
+@media (min-width: 740px) and (max-width: 1023px) {
+  .welcome-section h1,
+  .contact-header h2 {
+    font-size: 4rem;
+  }
+  .welcome-section p,
+  .contact-header p {
+    font-size: 1.5rem;
+  }
+  .project,
+  .contact {
+    padding: 6rem 4rem;
+  }
+  .project h2 {
+    font-size: 2.25rem;
+  }
+}
+/* > Desktop */
+@media screen and(min-width: 1024px) {
+}

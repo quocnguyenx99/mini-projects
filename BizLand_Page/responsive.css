@@ -1,0 +1,145 @@
+@media screen and (max-width: 1023px) {
+  .navbar__links {
+    position: fixed;
+    display: block;
+    top: 0;
+    left: 0;
+    bottom: 0;
+    width: 50%;
+    height: 100%;
+    background-color: white;
+    z-index: 1;
+    border-right: 1px solid #eee;
+    box-shadow: 2px 0 5px rgba(0, 0, 0, 0.1);
+    padding: 50px 15px;
+    max-width: 300px;
+    transform: translateX(-100%);
+    transition: var(--smooth);
+  }
+  .is-active {
+    transform: translateX(0);
+    transition: var(--smooth);
+  }
+  .navbar__link {
+    padding: 20px;
+    margin-left: 55px;
+  }
+}
+
+/* Mobile */
+@media screen and (max-width: 739px) {
+  .navbar__logo p {
+    font-size: 24px;
+  }
+  .navbar__link {
+    margin-left: 32px;
+  }
+  .navbar__icon,
+  .navbar__icon::before,
+  .navbar__icon::after {
+    width: 28px;
+  }
+  .navbar__ham {
+    justify-content: flex-end;
+  }
+  .hero__content h1 {
+    font-size: 36px;
+  }
+  .hero__content p {
+    font-size: 18px;
+  }
+  .features__wrapper {
+    flex-wrap: wrap;
+    row-gap: 32px;
+  }
+  .features {
+    padding: 30px 40px;
+  }
+  .feature {
+    max-width: 256px;
+    min-width: 200px;
+  }
+  .about,
+  .contact {
+    padding: 30px 40px;
+  }
+  .section__header {
+  }
+  .section__title {
+    font-size: 22px;
+  }
+  .section__button {
+    font-size: 14px;
+  }
+  .about-grid-container {
+    grid-template-columns: 1fr;
+    row-gap: 32px;
+  }
+  .about-right__title {
+    font-size: 24px;
+  }
+  .contact-grid-container {
+    grid-template-columns: auto;
+  }
+  .contact-info {
+    padding-right: 16px;
+    padding-left: 16px;
+  }
+  .contact__address,
+  .contact__map,
+  .contact__form {
+    grid-column: 1;
+  }
+  .contact__map {
+    order: 2;
+  }
+  .contact-info,
+  .contact__map {
+    max-width: 300px;
+  }
+  .contact__form {
+    display: none;
+  }
+  footer {
+    text-align: center;
+  }
+}
+
+/* Tablet */
+@media screen and (min-width: 740px) and (max-width: 1023px) {
+  .hero__content h1 {
+    font-size: 42px;
+  }
+  .hero__content p {
+    font-size: 20px;
+  }
+  .features__wrapper {
+    flex-wrap: wrap;
+    row-gap: 32px;
+  }
+  .about-grid-container {
+    grid-template-columns: 1fr;
+    row-gap: 32px;
+  }
+  .contact-grid-container {
+    grid-template-columns: auto;
+  }
+  .contact__address,
+  .contact__map,
+  .contact__form {
+    grid-column: 1;
+  }
+  .contact__map {
+    order: 2;
+  }
+  footer {
+    text-align: center;
+  }
+}
+
+/* Desktop */
+@media only screen and (min-width: 1024px) {
+  .navbar__ham {
+    display: none;
+  }
+}
